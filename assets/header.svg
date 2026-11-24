@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-labelledby="t d">
+  <title id="t">Venu Pathipati</title>
+  <desc id="d">AI/ML Engineer, Full-Stack Developer and DevOps Engineer. Shipping AI products from notebook to production.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0f1f"/>
+      <stop offset="1" stop-color="#121a36"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.55" stop-color="#c7d2fe"/>
+      <stop offset="1" stop-color="#67e8f9"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0.35"/>
+    </linearGradient>
+    <radialGradient id="glowV" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7c3aed" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowC" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#06b6d4" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#06b6d4" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.035"/>
+    </pattern>
+    <clipPath id="card"><rect width="1200" height="400" rx="20"/></clipPath>
+    <clipPath id="typing"><rect x="64" y="232" width="0" height="34">
+      <animate attributeName="width" from="0" to="412" begin="0.6s" dur="2.4s" fill="freeze"/>
+    </rect></clipPath>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="400" fill="url(#bg)"/>
+    <rect width="1200" height="400" fill="url(#grid)"/>
+    <circle cx="1010" cy="110" r="260" fill="url(#glowV)">
+      <animate attributeName="r" values="240;280;240" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="180" cy="420" r="260" fill="url(#glowC)">
+      <animate attributeName="r" values="270;230;270" dur="9s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="399" rx="20" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+
+  <!-- window chrome -->
+  <circle cx="40" cy="36" r="6" fill="#ff5f57"/>
+  <circle cx="60" cy="36" r="6" fill="#febc2e"/>
+  <circle cx="80" cy="36" r="6" fill="#28c840"/>
+  <text x="104" y="41" font-family="'Cascadia Code', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#8b95b5">venu@github:~/profile</text>
+
+  <!-- identity -->
+  <text x="64" y="104" font-family="'Cascadia Code', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="16" fill="#67e8f9" letter-spacing="1">HELLO, WORLD — I'M</text>
+  <text x="62" y="166" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Ubuntu, Arial, sans-serif" font-size="66" font-weight="800" fill="url(#name)" letter-spacing="-1">Venu Pathipati</text>
+  <text x="64" y="208" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Ubuntu, Arial, sans-serif" font-size="21" font-weight="600" fill="#c7d2fe">AI/ML Engineer<tspan fill="#5b6488">  ·  </tspan>Full-Stack Developer<tspan fill="#5b6488">  ·  </tspan>DevOps</text>
+
+  <!-- typed terminal line -->
+  <g font-family="'Cascadia Code', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="18">
+    <g clip-path="url(#typing)">
+      <text x="64" y="256" fill="#e2e8f0" textLength="404" lengthAdjust="spacing"><tspan fill="#28c840">$</tspan> ship --from notebook --to production</text>
+    </g>
+    <rect x="64" y="238" width="10" height="22" fill="#67e8f9">
+      <animate attributeName="x" from="64" to="476" begin="0.6s" dur="2.4s" fill="freeze"/>
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- chips -->
+  <g font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Ubuntu, Arial, sans-serif" font-size="15" font-weight="600">
+    <g transform="translate(64 304)">
+      <rect width="128" height="34" rx="17" fill="#a78bfa" fill-opacity="0.12" stroke="#a78bfa" stroke-opacity="0.55"/>
+      <text x="64" y="22" text-anchor="middle" fill="#ddd6fe">LLMs &amp; RAG</text>
+    </g>
+    <g transform="translate(204 304)">
+      <rect width="186" height="34" rx="17" fill="#22d3ee" fill-opacity="0.10" stroke="#22d3ee" stroke-opacity="0.55"/>
+      <text x="93" y="22" text-anchor="middle" fill="#cffafe">React + TypeScript</text>
+    </g>
+    <g transform="translate(402 304)">
+      <rect width="196" height="34" rx="17" fill="#60a5fa" fill-opacity="0.10" stroke="#60a5fa" stroke-opacity="0.55"/>
+      <text x="98" y="22" text-anchor="middle" fill="#dbeafe">Python · FastAPI · Node</text>
+    </g>
+    <g transform="translate(610 304)">
+      <rect width="196" height="34" rx="17" fill="#34d399" fill-opacity="0.10" stroke="#34d399" stroke-opacity="0.55"/>
+      <text x="98" y="22" text-anchor="middle" fill="#d1fae5">Docker · Jenkins · AWS</text>
+    </g>
+  </g>
+
+  <!-- neural network graphic -->
+  <g stroke="url(#edge)" stroke-width="1.4" fill="none">
+    <path id="e1" d="M880 110L1000 80"/><path d="M880 110L1000 155"/><path d="M880 110L1000 230"/><path d="M880 110L1000 305"/>
+    <path d="M880 200L1000 80"/><path id="e2" d="M880 200L1000 155"/><path d="M880 200L1000 230"/><path d="M880 200L1000 305"/>
+    <path d="M880 290L1000 80"/><path d="M880 290L1000 155"/><path id="e3" d="M880 290L1000 230"/><path d="M880 290L1000 305"/>
+    <path id="e4" d="M1000 80L1120 150"/><path d="M1000 80L1120 250"/>
+    <path d="M1000 155L1120 150"/><path id="e5" d="M1000 155L1120 250"/>
+    <path id="e6" d="M1000 230L1120 150"/><path d="M1000 230L1120 250"/>
+    <path d="M1000 305L1120 150"/><path id="e7" d="M1000 305L1120 250"/>
+  </g>
+
+  <!-- signal pulses -->
+  <g fill="#67e8f9">
+    <circle r="4"><animateMotion dur="2.4s" repeatCount="indefinite" begin="0s"><mpath href="#e1"/></animateMotion></circle>
+    <circle r="4" fill="#c4b5fd"><animateMotion dur="2.8s" repeatCount="indefinite" begin="0.7s"><mpath href="#e2"/></animateMotion></circle>
+    <circle r="4"><animateMotion dur="2.2s" repeatCount="indefinite" begin="1.3s"><mpath href="#e3"/></animateMotion></circle>
+    <circle r="4" fill="#c4b5fd"><animateMotion dur="2.4s" repeatCount="indefinite" begin="1.1s"><mpath href="#e4"/></animateMotion></circle>
+    <circle r="4"><animateMotion dur="2.6s" repeatCount="indefinite" begin="0.3s"><mpath href="#e5"/></animateMotion></circle>
+    <circle r="4" fill="#c4b5fd"><animateMotion dur="2.3s" repeatCount="indefinite" begin="1.8s"><mpath href="#e6"/></animateMotion></circle>
+    <circle r="4"><animateMotion dur="2.9s" repeatCount="indefinite" begin="0.9s"><mpath href="#e7"/></animateMotion></circle>
+  </g>
+
+  <!-- nodes -->
+  <g stroke-width="2">
+    <g fill="#0b1124" stroke="#22d3ee">
+      <circle cx="880" cy="110" r="10"/><circle cx="880" cy="200" r="10"/><circle cx="880" cy="290" r="10"/>
+    </g>
+    <g fill="#0b1124" stroke="#818cf8">
+      <circle cx="1000" cy="80" r="10"/><circle cx="1000" cy="155" r="10"/><circle cx="1000" cy="230" r="10"/><circle cx="1000" cy="305" r="10"/>
+    </g>
+    <g fill="#0b1124" stroke="#a78bfa">
+      <circle cx="1120" cy="150" r="12"/><circle cx="1120" cy="250" r="12"/>
+    </g>
+  </g>
+  <g fill="#67e8f9">
+    <circle cx="880" cy="110" r="3.5"><animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/></circle>
+    <circle cx="880" cy="200" r="3.5"><animate attributeName="opacity" values="1;0.3;1" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="880" cy="290" r="3.5"><animate attributeName="opacity" values="0.3;1;0.3" dur="1.8s" repeatCount="indefinite"/></circle>
+  </g>
+  <g fill="#c4b5fd">
+    <circle cx="1120" cy="150" r="5"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.2s" repeatCount="indefinite"/></circle>
+    <circle cx="1120" cy="250" r="5"><animate attributeName="opacity" values="1;0.4;1" dur="2.6s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- layer labels -->
+  <g font-family="'Cascadia Code', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#8b95b5">
+    <text x="862" y="115" text-anchor="end">data</text>
+    <text x="862" y="205" text-anchor="end">models</text>
+    <text x="862" y="295" text-anchor="end">code</text>
+    <text x="1140" y="155">apps</text>
+    <text x="1140" y="255">prod</text>
+  </g>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 228" width="480" height="228" role="img" aria-labelledby="t-portfolio-aws">
+  <title id="t-portfolio-aws">Portfolio on AWS: Personal portfolio (React + particle effects) that redeploys itself on every push to main.</title>
+  <defs>
+    <linearGradient id="a-portfolio-aws" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fb923c"/><stop offset="1" stop-color="#fbbf24"/></linearGradient>
+    <radialGradient id="g-portfolio-aws" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#fb923c" stop-opacity="0.22"/><stop offset="1" stop-color="#fb923c" stop-opacity="0"/></radialGradient>
+    <clipPath id="c-portfolio-aws"><rect width="480" height="228" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#c-portfolio-aws)">
+    <rect width="480" height="228" fill="#0d1117"/>
+    <circle cx="440" cy="10" r="170" fill="url(#g-portfolio-aws)"/>
+    <rect width="480" height="4" fill="url(#a-portfolio-aws)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="479" height="227" rx="16" fill="none" stroke="#30363d"/>
+  <text x="24" y="42" font-family="'Cascadia Code', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" font-weight="700" letter-spacing="1.4" fill="#fb923c">CLOUD · AWS</text>
+  <g transform="translate(440 36)" fill="none" stroke="#8b949e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <circle r="15" stroke="#30363d"/>
+    <path d="M-4.5 4.5L4.5 -4.5M-2.5 -4.5H4.5V2.5"/>
+  </g>
+  <text x="24" y="78" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Ubuntu, Arial, sans-serif" font-size="24" font-weight="700" fill="#f0f6fc">Portfolio on AWS</text>
+  <text x="24" y="108" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Ubuntu, Arial, sans-serif" font-size="14.5" fill="#9da7b3">Personal portfolio (React + particle effects) that</text>
+  <text x="24" y="129" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Ubuntu, Arial, sans-serif" font-size="14.5" fill="#9da7b3">redeploys itself on every push to main.</text>
+  <text x="24" y="164" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Ubuntu, Arial, sans-serif" font-size="14" font-weight="600" fill="#ffedd5"><tspan fill="#fb923c">▸ </tspan>GitHub Actions → Docker → Amazon ECR → EC2</text>
+  <g transform="translate(24.0 184)">
+    <rect width="58.5" height="26" rx="13" fill="#fb923c" fill-opacity="0.10" stroke="#fb923c" stroke-opacity="0.45"/>
+    <text x="29.25" y="17.5" text-anchor="middle" font-family="'Cascadia Code', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#e6edf3">React</text>
+  </g>
+  <g transform="translate(90.5 184)">
+    <rect width="124.2" height="26" rx="13" fill="#fb923c" fill-opacity="0.10" stroke="#fb923c" stroke-opacity="0.45"/>
+    <text x="62.1" y="17.5" text-anchor="middle" font-family="'Cascadia Code', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#e6edf3">GitHub Actions</text>
+  </g>
+  <g transform="translate(222.7 184)">
+    <rect width="65.8" height="26" rx="13" fill="#fb923c" fill-opacity="0.10" stroke="#fb923c" stroke-opacity="0.45"/>
+    <text x="32.9" y="17.5" text-anchor="middle" font-family="'Cascadia Code', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#e6edf3">Docker</text>
+  </g>
+  <g transform="translate(296.5 184)">
+    <rect width="116.9" height="26" rx="13" fill="#fb923c" fill-opacity="0.10" stroke="#fb923c" stroke-opacity="0.45"/>
+    <text x="58.45" y="17.5" text-anchor="middle" font-family="'Cascadia Code', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#e6edf3">AWS EC2 · ECR</text>
+  </g>
+</svg>
