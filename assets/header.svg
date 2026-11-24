@@ -54,7 +54,7 @@
   <!-- identity -->
   <text x="64" y="104" font-family="'Cascadia Code', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="16" fill="#67e8f9" letter-spacing="1">HELLO, WORLD — I'M</text>
   <text x="62" y="166" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Ubuntu, Arial, sans-serif" font-size="66" font-weight="800" fill="url(#name)" letter-spacing="-1">Venu Pathipati</text>
-  <text x="64" y="208" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Ubuntu, Arial, sans-serif" font-size="21" font-weight="600" fill="#c7d2fe">AI/ML Engineer<tspan fill="#5b6488">  ·  </tspan>Full-Stack Developer<tspan fill="#5b6488">  ·  </tspan>DevOps</text>
+  <text x="64" y="208" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Ubuntu, Arial, sans-serif" font-size="21" font-weight="600" fill="#c7d2fe">AI/ML Engineer<tspan fill="#5b6488">  ·  </tspan>Full-Stack Developer<tspan fill="#5b6488">  ·  </tspan>DevOps &amp; SRE</text>
 
   <!-- typed terminal line -->
   <g font-family="'Cascadia Code', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="18">
@@ -82,8 +82,8 @@
       <text x="98" y="22" text-anchor="middle" fill="#dbeafe">Python · FastAPI · Node</text>
     </g>
     <g transform="translate(610 304)">
-      <rect width="196" height="34" rx="17" fill="#34d399" fill-opacity="0.10" stroke="#34d399" stroke-opacity="0.55"/>
-      <text x="98" y="22" text-anchor="middle" fill="#d1fae5">Docker · Jenkins · AWS</text>
+      <rect width="214" height="34" rx="17" fill="#34d399" fill-opacity="0.10" stroke="#34d399" stroke-opacity="0.55"/>
+      <text x="107" y="22" text-anchor="middle" fill="#d1fae5">Docker · AWS · Azure · SRE</text>
     </g>
   </g>
 
